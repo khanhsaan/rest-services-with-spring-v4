@@ -17,7 +17,7 @@ public class BookEvent {
     @Column
     private String bookTitle;
     @Column
-    private Long libraryId;
+        private Long libraryId;
 
     public BookEvent() {
     }

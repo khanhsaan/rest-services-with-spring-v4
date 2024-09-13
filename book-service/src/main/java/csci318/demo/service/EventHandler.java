@@ -24,6 +24,6 @@ public class EventHandler {
     @EventListener
     public void handleReturnEvent(BookEvent bookEvent) {
         bookEventRepository.save(bookEvent);
-        System.out.println(bookEvent);
+        System.out.println(bookEvent)   ;
     }
 }
